@@ -1,0 +1,140 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ===== BARRA DE NAVEGACION ===== */
+
+#navBar a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+    transition: transform 0.4s;
+}
+
+#navBar a:hover{
+    transform: scale(1.1);
+    color: red;
+}
+
+#navBar button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ===== BUSCADOR ===== */
+
+.buscador{
+    padding: 20px;
+    justify-content: center;
+}
+
+#form-register {
+    background: #24303c;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+#buscador{
+    background: #24303c;
+    padding: 5px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+}
+
+/* ===== CARRUSEL ===== */
+
+#carouselExampleIndicators{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* ===== TARJETAS INDEX ===== */
+
+.row img{
+    width: 300px;
+    height: 180px;
+}
+
+/* ===== FOOTER ===== */
+
+#redes a{
+    transition: transform 0.4s;
+}
+
+#redes a:hover{
+    transform: scale(1.8);
+    color: #fff;
+}
+
+/* ===== SECCION USADOS ===== */
+
+.marcas{
+    width: 170px;
+    height: 120px;
+}
+
+#img__anuncio{
+    width: 270px;
+    height: 180px;
+    padding: 5px;
+    margin: auto;
+}
+.card-title{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+#contenedor{
+    width: 100%;
+    height: 350px;
+    background-image: url(https://img.freepik.com/foto-gratis/cliente-feliz-comprando-coche-nuevo-concesionario_342744-710.jpg?t=st=1654554855~exp=1654555455~hmac=124cd2d89effef6dca531397e0f04123aa072bacfc5843071793c00b0e900c0b&w=1380);
+    background-position: center;
+    background-size: cover;
+}
+
+#contenedor h2{
+    font-size:x-large;
+    color:red;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 150px;
+}
+
+/* ===== MEDIAS QUERIES ===== */
+
+@media screen and (max-width:1000px) {
+    nav ul li{
+        font-size: small;
+    }
+    #img__logo{
+        width: 150px;
+        height: 150px;
+    }
+    #redes{
+        justify-content: center;
+        padding: 5px;
+    }
+    #redes a{
+        padding: 5px;
+    }
+    #contenedor h2{
+        padding: 50px;
+    }  
+}
+
+@media screen and (max-width:500px){
+    #img__logo{
+        width: 100px;
+        height: 100px;
+    }
+}

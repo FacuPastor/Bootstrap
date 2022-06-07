@@ -76,6 +76,25 @@ body{
 
 /* ===== SECCION USADOS ===== */
 
+
+#contenedor{
+    width: 100%;
+    height: 400px;
+    background-image: url(https://img.freepik.com/foto-gratis/cliente-feliz-comprando-coche-nuevo-concesionario_342744-710.jpg?t=st=1654554855~exp=1654555455~hmac=124cd2d89effef6dca531397e0f04123aa072bacfc5843071793c00b0e900c0b&w=1380);
+    background-position: center;
+    background-size: cover;
+}
+
+#contenedor h2{
+    font-size:x-large;
+    color:red;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 150px;
+}
+
 .marcas{
     width: 170px;
     height: 120px;
@@ -90,24 +109,6 @@ body{
 .card-title{
     font-size: x-large;
     font-weight: bold;
-}
-
-#contenedor{
-    width: 100%;
-    height: 350px;
-    background-image: url(https://img.freepik.com/foto-gratis/cliente-feliz-comprando-coche-nuevo-concesionario_342744-710.jpg?t=st=1654554855~exp=1654555455~hmac=124cd2d89effef6dca531397e0f04123aa072bacfc5843071793c00b0e900c0b&w=1380);
-    background-position: center;
-    background-size: cover;
-}
-
-#contenedor h2{
-    font-size:x-large;
-    color:red;
-    letter-spacing: 2px;
-    word-spacing: 2px;
-    text-decoration: underline;
-    font-weight: bold;
-    padding: 150px;
 }
 
 /* ===== MEDIAS QUERIES ===== */
